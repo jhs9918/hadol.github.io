@@ -179,11 +179,10 @@ defaults:
       layout: page
       permalink: /:title/
 
+
 sass:
+  sass_dir: _sass
   style: compressed
-  load_paths:
-    - _sass
-    - node_modules/bootstrap/scss
 
 compress_html:
   clippings: all
