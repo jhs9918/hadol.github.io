@@ -28,9 +28,6 @@ url: "https://jhs9918.github.io"
 github:
   username: jhs9918 # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -39,9 +36,6 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/jhs9918 # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -94,7 +88,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile/avatar.jpg"
+avatar: "/assets/img/favicons/profile/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -134,15 +128,8 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
-  cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
-    deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
+  enabled: true
+ 
 paginate: 10
 
 # The base URL of your site
