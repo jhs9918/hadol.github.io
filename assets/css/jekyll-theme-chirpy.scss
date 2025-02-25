@@ -1,9 +1,3 @@
+@use "custom-functions";
 @use "bootstrap/scss/bootstrap" as *;
-
-@use "main"
-{%- if jekyll.environment == 'production' -%}
-  ".bundle"
-{%- endif -%}
-;
-
-/* append your custom style below */
+@use "main" as *;
